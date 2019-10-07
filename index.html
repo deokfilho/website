@@ -287,13 +287,13 @@
             <hr />
           </h1>
           <strong>Ame Box</strong></br>
-          This past summer, I worked at Brazil’s largest e-commerce company, Americanas, as a special projects assistant. 
-          My primary responsibilities included creating a proof-of-concept(poc) of a catalog for ride-share drivers to sell products to their passengers, 
+          This past summer I worked at Brazil’s largest e-commerce company, Americanas, as a special projects assistant. 
+          My primary responsibilities included creating a proof-of-concept(POC) of a catalog for ride-share drivers to sell products to their passengers, 
           as well as tweak this catalog in order to sell convenience products at office spaces. 
           By building prototypes and getting feedback on it, 
           it become clear that this catalog needed to address the broader opportunity of 
-          improving customers' buying experiences while lowering the sign up friction of merchants.
-          The requirements for this poc where that it processed credit card transactions through Americana's 
+          improving customers' buying experiences while lowering the signup friction of merchants.
+          The requirements for this POC where that it processed credit card transactions through Americana's 
           <a title="ame digital" href="https://amedigital.com">
             Ame Digital Wallet
           </a>
@@ -303,10 +303,11 @@
         Thinking of allowing different buying experiences, I created the following options:</br>
 <ul>
   <li><a title="quick pay" href="http://box-front.herokuapp.com/4444">Quick Pay</a></li>
-This payment option started with the idea of selling products to people at their desks in office buildings, 
-using a plane food cart to go through narrow spaces. The goal was to offer the most convenient possible service, 
-which entailed having the client merely reach out their arm with the payment QR Code on their phone screen. 
-The merchant operating the scart would register the products the client chose, and scan the QR Code to charge the customer.
+This payment option evolved from the idea of selling convenience products to office workers at their work stations using a food cart. 
+  The goal was to offer the most convenient possible service, 
+which entailed having the client merely reach out their arm with the payment QR Code openend on their phone screen. 
+The merchant operating the scart would then select the products the client chose from a catalog, and scan the QR Code to charge them.
+  </br>
   <video
           preload="auto"
           poster="#"
@@ -320,40 +321,44 @@ The merchant operating the scart would register the products the client chose, a
           <source type="video/mp4" src="assets/video/quickpay.mp4" />
         </video>
   </br>
-    <li><a title="self-checkout" href="http://box-front.herokuapp.com/5454">Self-checkout(For screens wider than 1050px)</a></li>
-The first live test we made with this product was to have Americana's employees who purchased ready made meals from a notoriously famous cook close to the office 
-to choose their go-to lucnh boxes from a tablet and scan the generated QR Code with their Ame Wallet in order to pay.
-This was a big improvement over what was being done before, where those who wished to pay with Ame had to line up, 
-and once it was their turn to pay, the cook would type how much the customer owned(with no inventory control), 
-and then scan the customer's QR Code.
+    <li><a title="self-checkout" href="http://box-front.herokuapp.com/5454">Self-checkout</a></li>
+The first live test we made with this payment method was to have Americanas' employees who often purchased ready made meals from a well-liked cook 
+at the office to choose their go-to lunch boxes from a tablet and scan the QR Code this tablet generated using their <a title="ame digital" href="https://amedigital.com">
+            Ame Wallet Payment Scanner
+          </a>.
+This was a big improvement over what was being done before, where customers would have to line up, 
+and once it was their turn to pay, the cook would type the customer's total(with no inventory control), 
+and then take time from prepping other meals in order to scan the customer's <a title="ame digital" href="https://amedigital.com">
+            Payment QR Code
+          </a>.
+</br>
   <img
             alt="Foto de perfil do Deok"
             title="Deok Filho student"
             src="assets/img/tablet1.jpeg"
-            height="30%"
+            style="max-height:200px"
           />
     <img
             alt="Foto de perfil do Deok"
             title="Deok Filho student"
             src="assets/img/tablet2.jpeg"
-            height="30%"
-          />
-<li><a title="quick pay" href="http://box-front.herokuapp.com/5454">Mobile ordering(For screens narrower than 1050px)</a></li>
-THe employees quickly caught on to the idea, and at some points a line would form for customers to pay on the tablet.
-The solution was to create a webapp in which they could purchase the meal from their phones wherever they were, 
-a deeplink would then prompt them to pay within the app, and they would only need to pick up their lunch from Mrs. Lilia.
+            style="max-height:200px"
+         />
+<li><a title="quick pay" href="http://box-front.herokuapp.com/5454">Mobile ordering</a></li>
+THe employees quickly caught on to the idea, and at some points a line would form for customers paying on the tablet.
+The solution was to create a Webapp in which they could purchase their meals from their phones wherever they were, whenever they wanted.
+After hitting the pink Confirm Payment button, a deeplink would then take them to the Ame Wallet app. 
+All there was left to do was to stop by Mrs. Lilia's stand and pick up their lunch boxes.
 <img
             alt="Foto de perfil do Deok"
             title="Deok Filho student"
             src="assets/img/selfcheckout1.jpeg"
-            width="30%"
-          />
+            style="max-width:200px"          />
     <img
             alt="Foto de perfil do Deok"
             title="Deok Filho student"
             src="assets/img/selfcheckout2.jpeg"
-            width="30%"
-         />  
+            style="max-width:200px"          />
 
 </ul>
 </div>
